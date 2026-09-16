@@ -6,9 +6,9 @@ export default function Hero() {
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden px-6 pt-20">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[1.35fr_.65fr] lg:items-center">
         <div>
-<p className="mb-5  text-sm font-medium uppercase tracking-[0.28em] bg-black pl-2 text-white w-[220px]">
-  React.js Developer  
-</p>
+        <p className="mb-5  text-sm font-medium uppercase tracking-[0.28em] bg-black pl-2 text-white w-[220px]">
+          React.js Developer  
+        </p>
 
           <h1 className="max-w-5xl text-5xl font-bold leading-[1.03] tracking-tight sm:text-6xl lg:text-8xl">
             Building modern
@@ -44,7 +44,8 @@ export default function Hero() {
 
                 <div className="w-full max-w-[300px]">
                   <img
-                    src="/profile.jpeg"
+
+                  src={`${import.meta.env.BASE_URL}profile.jpeg`}
                     alt="Amit Yadav"
                     className="w-full h-auto object-cover rounded-2xl"
                   />
