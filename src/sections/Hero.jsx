@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden px-6 pt-20">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[1.35fr_.65fr] lg:items-center">
         <div>
-        <p className="mb-5  text-sm font-medium uppercase tracking-[0.28em] bg-black pl-2 text-white w-[220px]">
+        <p className="mb-5  text-sm font-medium uppercase tracking-[0.28em] bg-black pl-2 text-white w-[240px]">
           React.js Developer  
         </p>
 
