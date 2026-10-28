@@ -41,7 +41,6 @@ export default function App() {
   }, [dark]);
 
   return (
-    <BrowserRouter basename="/Amityadav-Portfolio">
       <div className="min-h-screen bg-white text-zinc-900 transition-colors dark:bg-zinc-950 dark:text-white">
         <Navbar dark={dark} setDark={setDark} />
 
@@ -52,6 +51,5 @@ export default function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
   );
 }
