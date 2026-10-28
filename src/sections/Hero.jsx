@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[1.35fr_.65fr] lg:items-center">
         <div>
         <p className="mb-5  text-sm font-medium uppercase tracking-[0.28em] bg-black pl-2 text-white w-[240px]">
-          React.js Developer  React.js Developer React.js Developer 
+          React.js Developer
         </p>
 
           <h1 className="max-w-5xl text-5xl font-bold leading-[1.03] tracking-tight sm:text-6xl lg:text-8xl">
